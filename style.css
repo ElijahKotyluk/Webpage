@@ -12,8 +12,13 @@
     background-color:black;
     padding: 20px;
     text-align: center;
-    color: aliceblue;
-    text-shadow: 3px 2px 3px;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 70px #fff,
+    0 0 80px #fff,
+    0 0 100px #fff,
+    0 0 150px #fff;
     font-size: 24px;
 }
 
@@ -22,9 +27,9 @@
   width:auto;
   font-size: 16px;
   text-align: center;
-  text-shadow: 3px 2px 3px #333333;
-  background-color: cornflowerblue;
-  border-radius: 8px;
+  background-color: black;
+  border-radius: none;
+
 }
 
 .Navigation ul{
@@ -42,15 +47,20 @@
 
 .Navigation a{
     text-decoration: underline;
-    color: aquamarine;
+    color: #fff;
     padding: 6px 6px 6px 6px 6px;
 
 
 }
 
 .Navigation a:hover{
-    color:cyan;
-    background-color:darkgray;
+  text-shadow: 0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 40px #fff,
+  0 0 70px #fff,
+  0 0 80px #fff,
+  0 0 100px #fff,
+  0 0 150px #fff;
 }
 
 
